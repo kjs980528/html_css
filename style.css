@@ -8,7 +8,7 @@
 
 p{
     /* 모든 p태그에 적용할 스타일(tag셀렉터) */
-    color:red;
+    text-decoration: underline;
 }
 .blue-color{
     /* 해당 클래스 이름을 가진 모든 태그에 적용할 스타일(class셀렉터) */

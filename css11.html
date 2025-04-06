@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .box{
+            width:300px;
+            height:300px;
+            border:2px solid black;
+        }
+        .container{
+            display: flex;
+        }
+        .box1{
+            border:2px solid aqua;
+            width: 500px;
+            height: 100px;
+        }
+        .flex-box{
+            width: 500px;
+            display: flex; 
+        }
+        .box2{
+            width: 51%;
+            height: 300px;
+            border:2px solid aqua;
+        }
+        .box3{
+            width: 51%;
+            height: 300px;
+            border:2px solid aqua;
+        }
+        .box4{
+            width: 300px;
+            height: 90px;
+            border:2px solid aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1" ></div>
+    <div class="flex-box">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <div class="box3"></div>
+
+    <div class="box">상자0</div>
+    <div class="container">
+        <div class="box">상자1</div>
+        <div class="box">상자2</div>
+        <div class="box">상자3</div>
+        <div class="box">상자4</div>
+    </div>
+    <div class="box">상자5</div>
+    
+</body>
+</html>
